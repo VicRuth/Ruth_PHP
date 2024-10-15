@@ -1,0 +1,99 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+#wrapper {
+    display: flex;
+    margin: 20px;
+}
+
+aside.sidebar {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-right: 20px;
+}
+
+aside img.profile-pic {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 120px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+aside h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+aside p {
+    color: #666;
+    line-height: 1.6;
+}
+
+main.content-area {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+article.post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+article h3.post-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+article time {
+    color: #999;
+    font-size: 0.9em;
+}
+
+article address a.author-name {
+    font-weight: bold;
+    color: #007bff;
+}
+
+article p.post-content {
+    color: #444;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+footer.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer small.like-count {
+    font-size: 0.9em;
+    color: #999;
+}
+
+footer a.tag-list {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a.tag-list:hover {
+    text-decoration: underline;
+}
